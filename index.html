@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Proyecto:To Do Lis</title>
+
+	<link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+	
+	<header>
+		<h1>Cosas Para Hacer </h1>
+		<form id="new-task-form">
+			<input 
+				type="text" 
+				name="new-task-input" 
+				id="new-task-input" 
+				placeholder="Tarea a Agregar" />
+			<input 
+				type="submit"
+				id="new-task-submit" 
+				value="Agregar tarea" /> 
+		</form>
+	</header>
+	<main>
+		<section class="task-list">
+			<h2>Listas de Tareas</h2>
+
+			<div id="tasks">				
+
+			</div>
+		</section>
+	</main>
+
+	<script src="script.js"></script>
+	
+</body>
+</html>
